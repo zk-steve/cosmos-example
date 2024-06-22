@@ -12,7 +12,9 @@ const (
 )
 
 var (
-	ParamsKey = []byte("p_example")
+	PostCountKey = "Post/count/"
+	PostKey      = "Post/value/"
+	ParamsKey    = []byte("p_example")
 )
 
 func KeyPrefix(p string) []byte {

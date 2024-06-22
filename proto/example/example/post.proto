@@ -1,0 +1,11 @@
+syntax = "proto3";
+package example.example;
+
+option go_package = "example/x/example/types";
+
+message Post {
+  string title = 1;
+  string body = 2; 
+  string creator = 3; 
+  uint64 id = 4; 
+}
